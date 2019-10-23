@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.App .ui.placeholder.segment {
+  min-height: 58rem;
+}
+
+div.menu a.item .icon-container.down {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+div.menu a.item {
+  padding: 0.78571429em 0.92857143em !important;
+}
+
+.night {
+  background-color: black;
+}
+
+div.menu a.item > div {
+  height: 8px;
+  width: 8px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+.disrupted {
+  background-color: red;
+}
+
+.non-disrupted {
+  background-color: green;
+}
+
+.App .ui.search > .results {
+  max-height: 300px;
+  overflow: auto;
+}
